@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_student_feed"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="@string/student_feed" />
+        <item
+            android:id="@+id/nav_to_do"
+            android:icon="@android:drawable/ic_input_get"
+            android:title="@string/to_do" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="@string/calendar" />
+        <item
+            android:id="@+id/nav_settings"
+            android:title="@string/settings" />
+    </group>
+</menu>
